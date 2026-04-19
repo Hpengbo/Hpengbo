@@ -22,7 +22,7 @@ HEADERS = {
     "token": input_token,
     "routerId": "4"
 }
-print(HEADERS)
+# print(HEADERS)
 # 请求体
 PAYLOAD = {
     "limit": 15,
