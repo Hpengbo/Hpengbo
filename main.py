@@ -57,7 +57,7 @@ def call_fxczlb_api():
 
 
 def main():
-    call_fxczlb_api()
+    call_fxczlb_api() 
 
 
 if __name__ == "__main__":
