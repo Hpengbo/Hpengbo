@@ -66,9 +66,9 @@ def call_fxczlb_api():
             print(f"[INFO] 响应数据: {json.dumps(data, ensure_ascii=False, indent=2)}")
 
             # 保存响应数据到文件
-            with open("fxczlb_response.json", "w", encoding="utf-8") as f:
-                json.dump(data, f, ensure_ascii=False, indent=2)
-            print("[INFO] 响应数据已保存到: fxczlb_response.json")
+            # with open("fxczlb_response.json", "w", encoding="utf-8") as f:
+            #     json.dump(data, f, ensure_ascii=False, indent=2)
+            # print("[INFO] 响应数据已保存到: fxczlb_response.json")
 
             return data
         else:
