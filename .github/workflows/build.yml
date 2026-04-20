@@ -21,7 +21,7 @@ jobs:
           pip install pyinstaller requests
 
       - name: Build EXE
-        run: pyinstaller -F main.py
+        run: pyinstaller -F fxfk_client.py
 
       - name: Upload EXE
         uses: actions/upload-artifact@v4
